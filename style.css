@@ -143,6 +143,9 @@ tr:hover:nth-child(odd){
 
 
 footer{
+  position: fixed;
+  left: 0;
+  right:0; 
   width:100%;
   background:#000000;
   text-align:center;
