@@ -15,7 +15,7 @@ body{
   font-family: 'Andika', sans-serif;
   background-size: cover;
   background-position: center;
-  background-image: url("pigeon-background.jpg");
+  background-image: url("../images/pigeon-background.jpg");
   background-color:#DDDDDD;
 }
 
@@ -63,11 +63,8 @@ table{
   padding: 10px;
   text-transform: uppercase;
   vertical-align: middle;
+  min-width: 125px;
 
-
-}
-.colhead.min{
-  width: 125px;
 }
 
 .rowhead{
@@ -133,6 +130,10 @@ table tr:last-child td:last-child{
 tr:nth-child(odd){
   background: #D1D1D1;
 }
+tr:nth-child(even){
+background: transparent;
+}
+
 tr:hover:nth-child(odd){
   background-color: rgba(126, 8, 32, .25);
 }
@@ -148,9 +149,7 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  /*min-height: 75px;*/
+  min-height: 75px;
 }
-.footer.min{
-  height: 75px;
-}
+
 
