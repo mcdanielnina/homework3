@@ -129,11 +129,11 @@ table tr:last-child td:last-child{
 }
 
 tr:nth-child(odd){
-  background: #D1D1D1;
+  background-color: #D1D1D1;
 }
-/*tr:nth-child(even){
-background: transparent;
-}*/
+tr:nth-child(even){
+background-color: transparent;
+}
 
 tr:hover:nth-child(odd){
   background-color: rgba(126, 8, 32, .25);
@@ -146,6 +146,8 @@ tr:hover:nth-child(odd){
 
 footer{
   position: fixed;
+  left:0px;
+  bottom:0px;
   width:100%;
   background:#000000;
   text-align:center;
