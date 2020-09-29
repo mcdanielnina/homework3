@@ -17,6 +17,7 @@ body{
   background-position: center;
   background-image: url("../images/pigeon-background.jpg");
   background-color:#DDDDDD;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -130,17 +131,17 @@ table tr:last-child td:last-child{
 tr:nth-child(odd){
   background: #D1D1D1;
 }
-tr:nth-child(even){
+/*tr:nth-child(even){
 background: transparent;
-}
+}*/
 
 tr:hover:nth-child(odd){
   background-color: rgba(126, 8, 32, .25);
 }
-/*tbody tr:nth-child(even){
-  background: #D1D1D1;
 
-}*/
+tr:hover:nth-child(even){
+  background-color: rgba(126, 8, 32, .25);
+}
 
 
 footer{
